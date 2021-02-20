@@ -1,0 +1,12 @@
+[*.*]
+indent_style = space
+indent_size = 2
+
+dotnet_naming_style.underscorecamelcase.required_prefix = _
+dotnet_naming_style.underscorecamelcase.required_suffix = 
+dotnet_naming_style.underscorecamelcase.word_separator = 
+dotnet_naming_style.underscorecamelcase.capitalization = camel_case
+
+dotnet_naming_rule.private_or_internal_field_should_be_underscorecamelcase.severity = suggestion
+dotnet_naming_rule.private_or_internal_field_should_be_underscorecamelcase.symbols = private_or_internal_field
+dotnet_naming_rule.private_or_internal_field_should_be_underscorecamelcase.style = underscorecamelcase
